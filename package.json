@@ -8,6 +8,8 @@
     "puppeteer": "^22.7.1"
   },
   "scripts": {
+    
+    "test-specific": "jest explore.test.js --maxWorkers=1", 
     "test": "jest --maxWorkers=1"
   },
   "jest": {
